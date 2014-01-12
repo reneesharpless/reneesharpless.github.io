@@ -1,6 +1,15 @@
-# Reiki Engery Healing
+# Reiki Energy Healing
 
-Reiki is an ancient Japanese healing technique that harnesses the universal energy within us all. It flows through the practioners hands and onto the receiver. This energy is a powerful source of healing a person physically, mentally, and spiritually.
+Reiki is an *ancient* **Japanese** healing technique that harnesses the universal energy within us all. It flows through the practioners hands and onto the receiver. This energy is a powerful source of healing a person physically, mentally, and spiritually.
+
+- List item 1
+- List 2
+- List 3
+- List 4
+
+1. order
+2. order
+3. order
 
 ## What is a Reiki session?
 
