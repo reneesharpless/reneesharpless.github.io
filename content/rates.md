@@ -14,4 +14,4 @@ Drop-in class………$12
 The Reiki Shop [https://www.facebook.com/TheReikiShop]
    		6619B Pearl Rd.
    		Parma Heights, OH 44103
-  		 440.345.5566 (studio only)
+  		   440.345.5566 (studio only)
