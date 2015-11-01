@@ -1,0 +1,198 @@
+/* Base ---------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+dl, dt, dd, ol, ul, li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font: 300 1.6em/1.5 "Signika", sans-serif;
+  background: hsl(48, 89%, 43%);
+  color: #4d4d4d;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: hsl(48, 89%, 80%);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Utility ---------------------------------------- */
+
+.inverted {
+  color: #fff;
+}
+
+.unbreakable {
+  white-space: nowrap;
+}
+
+.align--center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/* Grid system ---------------------------------------- */
+
+.gridCell--padded {
+  padding: 1em;
+}
+
+.gridCell--row--justifyCenter {
+  justify-content: center;
+}
+
+@media screen and (min-width: 60em) {
+
+  .gridCell--row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gridCell--padded {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+}
+
+
+/* Page wrap ---------------------------------------- */
+
+.pageWrap {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 60em) {
+  .pageWrap {
+    max-width: 60em;
+  }
+}
+
+
+/* Headlines ---------------------------------------- */
+
+.headline {
+  font-weight: inherit;
+  margin: 1em 0 0.5em;
+}
+
+h1.headline {
+  font-size: 2.4rem;
+}
+
+h2.headline {
+  font-size: 2.1rem;
+}
+
+h3.headline {
+  font-size: 1.8rem;
+}
+
+.headline__line {
+  display: block;
+}
+
+
+/* Page headers ---------------------------------------- */
+
+.pageHeader {
+  line-height: 1;
+  padding-top: 2em;
+}
+
+.pageHeader__headline {
+  margin: 0;
+  display: inline-block;
+}
+
+.pageHeader__primary {
+  font-size: 2.2em;
+  letter-spacing: -0.03em;
+}
+
+
+/* Programs ---------------------------------------- */
+
+.program {
+  max-width: 30em;
+}
+
+
+/* Meta ---------------------------------------- */
+
+.meta {
+  margin-bottom: 1em;
+  font-size: 1.4rem;
+  color: hsl(48, 89%, 87%);
+}
+
+.meta__item {
+  margin-bottom: 0.25em;
+}
+
+
+/* Content ---------------------------------------- */
+
+.content p {
+  margin-bottom: 0.5em;
+}
+
+
+/* Basic lists ---------------------------------------- */
+
+.basicList {
+  margin-left: 1.5em;
+}
+
+.basicList li {
+  margin-bottom: 0.5em;
+  list-style-type: kannada;
+}
+
+
+/* Page footer ---------------------------------------- */
+
+.pageFooter {
+  width: 100%;
+  border-top: 1px solid hsl(48, 89%, 60%);
+  padding-top: 1em;
+}
+
+.pageFooter address {
+  font-style: normal;
+}
+
+.pageFooter__item {
+  margin-bottom: 1em;
+}
