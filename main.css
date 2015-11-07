@@ -196,3 +196,8 @@ h3.headline {
 .pageFooter__item {
   margin-bottom: 1em;
 }
+
+.pageFooter__item__link {
+  display: inline-block;
+  margin-right: 1em;
+}
