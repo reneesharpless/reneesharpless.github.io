@@ -148,6 +148,16 @@ h3.headline {
   max-width: 30em;
 }
 
+@media screen and (min-width: 60em) {
+  .program__col + .program__col {
+    border-left: 1px solid hsl(48, 89%, 60%);
+  }
+
+  .program__title {
+    margin-top: 0;
+  }
+}
+
 
 /* Meta ---------------------------------------- */
 
