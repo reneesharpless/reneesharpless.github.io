@@ -79,8 +79,7 @@ a:hover {
   }
 
   .gridCell--padded {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 0.2em 2em;
   }
 
 }
@@ -128,7 +127,7 @@ h3.headline {
 
 .pageHeader {
   line-height: 1;
-  padding-top: 2em;
+  margin-top: 3rem;
   text-transform: uppercase;
 }
 
@@ -148,6 +147,12 @@ h3.headline {
   font-size: 2.2rem;
 }
 
+@media screen and (min-width: 60em) {
+  .pageHeader {
+    margin-bottom: 3rem;
+  }
+}
+
 
 /* Programs ---------------------------------------- */
 
@@ -156,6 +161,10 @@ h3.headline {
 }
 
 @media screen and (min-width: 60em) {
+  .program__row {
+    margin-bottom: 3rem;
+  }
+
   .program__col + .program__col {
     border-left: 1px solid hsl(48, 89%, 60%);
   }
