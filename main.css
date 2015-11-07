@@ -129,6 +129,7 @@ h3.headline {
 .pageHeader {
   line-height: 1;
   padding-top: 2em;
+  text-transform: uppercase;
 }
 
 .pageHeader__headline {
@@ -137,8 +138,14 @@ h3.headline {
 }
 
 .pageHeader__primary {
-  font-size: 2.2em;
-  letter-spacing: -0.03em;
+  font-size: 4.2rem;
+  margin-bottom: 0.1em;
+}
+
+.pageHeader__secondary {
+  letter-spacing: 0.68em;
+  margin-right: -0.68em;
+  font-size: 2.2rem;
 }
 
 
