@@ -42,9 +42,7 @@ a:visited {
 }
 
 a:hover {
-  /*text-decoration: underline;*/
   text-shadow: 2px 2px 5px #222;
-
 }
 
 
@@ -53,10 +51,6 @@ a:hover {
 .inverted {
   color: #fff;
 }
-
-/*.unbreakable {
-  white-space: nowrap;
-}*/
 
 .align--center {
   text-align: center;
@@ -67,13 +61,11 @@ a:hover {
 }
 
 @media screen and (min-width: 60em) {
-
   .unbreakable {
     white-space: nowrap;
   }
 
 }
-
 
 
 /* Grid system ---------------------------------------- */
@@ -87,7 +79,6 @@ a:hover {
 }
 
 @media screen and (min-width: 60em) {
-
   .gridCell--row {
     display: flex;
     flex-direction: row;
@@ -111,6 +102,7 @@ a:hover {
   .pageWrap {
     max-width: 60em;
   }
+
 }
 
 
@@ -119,6 +111,7 @@ a:hover {
 .headline {
   font-weight: inherit;
   margin: 1em 0 0.5em;
+  text-shadow: 2px 2px 5px #222;
 }
 
 h1.headline {
@@ -127,16 +120,36 @@ h1.headline {
 
 h2.headline {
   font-size: 2.1rem;
-  text-shadow: 2px 2px 5px #222;
 }
 
 h3.headline {
   font-size: 1.8rem;
-  text-shadow: 2px 2px 5px #222;
 }
 
 .headline__line {
   display: block;
+}
+
+
+/* Banner ---------------------------------------- */
+
+.banner {
+  padding: 1em;
+  width: 360px;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 60em) {
+  .banner {
+    margin: 0 auto 30px;
+    padding: 0 1em;
+    width: 520px;
+    border-right: 2px solid hsl(48, 89%, 60%);
+    border-left: 2px solid hsl(48, 89%, 60%);
+    border-radius: 5px;
+    text-align: center;
+  }
+
 }
 
 
@@ -156,13 +169,14 @@ h3.headline {
 .pageHeader__primary {
   font-size: 4.2rem;
   margin-bottom: 0.1em;
-  text-shadow: 2px 2px 5px #222;
 }
 
 .pageHeader__secondary {
-  letter-spacing: 0.68em;
-  margin-right: -0.68em;
+  letter-spacing: 1.05em;
+  margin-right: -1.05em;
+  color: #4d4d4d;
   font-size: 2.2rem;
+  text-shadow: none;
 }
 
 @media screen and (min-width: 60em) {
@@ -192,6 +206,7 @@ h3.headline {
   .program__title {
     margin-top: 0;
   }
+
 }
 
 
@@ -212,6 +227,10 @@ h3.headline {
 
 .content p {
   margin-bottom: 0.5em;
+}
+
+.vertical-padding {
+  padding: 20px 0 0;
 }
 
 
@@ -249,7 +268,6 @@ h3.headline {
 }
 
 @media screen and (min-width:1em) {
-
   .pageFooter__item__link {
     margin-bottom: 1.5em;
   }
@@ -257,7 +275,6 @@ h3.headline {
 }
 
 @media screen and (max-width: 420px) {
-
   .pageFooter__item__link {
     display: block;
   }
