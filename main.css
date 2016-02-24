@@ -28,17 +28,23 @@ body {
   color: #4d4d4d;
 }
 
+a {
+  transition: all .2s;
+}
+
 a:link {
   color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: hsl(48, 89%, 80%);
+  color: hsl(48, 89%, 87%);
 }
 
 a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: 2px 2px 5px #222;
+
 }
 
 
@@ -112,10 +118,12 @@ h1.headline {
 
 h2.headline {
   font-size: 2.1rem;
+  text-shadow: 2px 2px 5px #222;
 }
 
 h3.headline {
   font-size: 1.8rem;
+  text-shadow: 2px 2px 5px #222;
 }
 
 .headline__line {
@@ -139,6 +147,7 @@ h3.headline {
 .pageHeader__primary {
   font-size: 4.2rem;
   margin-bottom: 0.1em;
+  text-shadow: 2px 2px 5px #222;
 }
 
 .pageHeader__secondary {
