@@ -240,10 +240,14 @@ h3.headline {
   margin-bottom: 0.5em;
 }
 
-.attentionText {
-  margin: 1.5em 0;
-  text-transform: uppercase;
-  font-weight: bold;
+a.callToAction {
+  display: block;
+  margin: 1em 0;
+  color: #4d4d4d;
+  background-color: hsl(48, 89%, 78%);
+  padding: 1.5em;
+  text-align: center;
+  text-shadow: none;
 }
 
 
