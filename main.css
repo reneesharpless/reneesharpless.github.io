@@ -42,7 +42,8 @@ a:visited {
 }
 
 a:hover {
-  text-shadow: 2px 2px 5px #222;
+  /*text-shadow: 2px 2px 5px #222;*/
+  text-decoration: underline;
 }
 
 
@@ -129,25 +130,28 @@ h3.headline {
 }
 
 
-/* Banner ---------------------------------------- */
+/* Call To Action ---------------------------------------- */
 
-.banner {
-  padding: 1em;
-  font-size: 1.5rem;
+.callToActionWrap {
+  display: block;
+  text-align: center;
+}
+
+a.callToAction-signUp {
+  color: #4d4d4d;
+  display: block;
+  margin: 0 1em;
+  padding: .5em 0em;
+  background-color: hsl(48, 89%, 78%);
+  border-radius: 5px;
 }
 
 
 @media screen and (min-width: 60em) {
-  .banner {
-    margin: 0 auto 30px;
-    text-align: center;
-  }
-
-  .banner a {
-    padding: 0 1em;
-    border-right: 2px solid hsl(48, 89%, 60%);
-    border-left: 2px solid hsl(48, 89%, 60%);
-    border-radius: 5px;
+  a.callToAction-signUp {
+    display: inline-block;
+    margin: 0 1em 1em;
+    padding: .5em 1em;
   }
 
 }
@@ -240,14 +244,18 @@ h3.headline {
   margin-bottom: 0.5em;
 }
 
-a.callToAction {
+.crappy-class-name {
+  padding: 1em 0 0;
+}
+
+a.callToAction-register {
   display: block;
   margin: 1em 0;
   color: #4d4d4d;
   background-color: hsl(48, 89%, 78%);
+  border-radius: 5px;
   padding: 1.5em;
   text-align: center;
-  text-shadow: none;
 }
 
 
