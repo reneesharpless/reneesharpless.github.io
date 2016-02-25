@@ -28,17 +28,21 @@ body {
   color: #4d4d4d;
 }
 
+a {
+  transition: all .2s;
+}
+
 a:link {
   color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: hsl(48, 89%, 80%);
+  color: hsl(48, 89%, 87%);
 }
 
 a:hover {
-  text-decoration: underline;
+  text-shadow: 2px 2px 5px #222;
 }
 
 
@@ -48,12 +52,12 @@ a:hover {
   color: #fff;
 }
 
-.unbreakable {
-  white-space: nowrap;
-}
-
 .align--center {
   text-align: center;
+}
+
+.unbreakable {
+  white-space: nowrap;
 }
 
 .uppercase {
@@ -72,7 +76,6 @@ a:hover {
 }
 
 @media screen and (min-width: 60em) {
-
   .gridCell--row {
     display: flex;
     flex-direction: row;
@@ -96,6 +99,7 @@ a:hover {
   .pageWrap {
     max-width: 60em;
   }
+
 }
 
 
@@ -104,6 +108,7 @@ a:hover {
 .headline {
   font-weight: inherit;
   margin: 1em 0 0.5em;
+  text-shadow: 2px 2px 5px #222;
 }
 
 h1.headline {
@@ -120,6 +125,31 @@ h3.headline {
 
 .headline__line {
   display: block;
+  white-space: nowrap;
+}
+
+
+/* Banner ---------------------------------------- */
+
+.banner {
+  padding: 1em;
+  font-size: 1.5rem;
+}
+
+
+@media screen and (min-width: 60em) {
+  .banner {
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+  .banner a {
+    padding: 0 1em;
+    border-right: 2px solid hsl(48, 89%, 60%);
+    border-left: 2px solid hsl(48, 89%, 60%);
+    border-radius: 5px;
+  }
+
 }
 
 
@@ -137,20 +167,35 @@ h3.headline {
 }
 
 .pageHeader__primary {
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   margin-bottom: 0.1em;
 }
 
 .pageHeader__secondary {
-  letter-spacing: 0.68em;
-  margin-right: -0.68em;
-  font-size: 2.2rem;
+  letter-spacing: 1.05em;
+  margin-right: -1.05em;
+  color: #4d4d4d;
+  font-size: 1.98rem;
+  text-shadow: none;
+}
+
+@media screen and (min-width: 30em) {
+
+  .pageHeader__primary {
+    font-size: 4.2rem;
+  }
+
+  .pageHeader__secondary {
+    font-size: 2.2rem;
+  }
+
 }
 
 @media screen and (min-width: 60em) {
   .pageHeader {
     margin-bottom: 3rem;
   }
+
 }
 
 
@@ -172,6 +217,7 @@ h3.headline {
   .program__title {
     margin-top: 0;
   }
+
 }
 
 
@@ -192,6 +238,16 @@ h3.headline {
 
 .content p {
   margin-bottom: 0.5em;
+}
+
+a.callToAction {
+  display: block;
+  margin: 1em 0;
+  color: #4d4d4d;
+  background-color: hsl(48, 89%, 78%);
+  padding: 1.5em;
+  text-align: center;
+  text-shadow: none;
 }
 
 
@@ -224,6 +280,14 @@ h3.headline {
 }
 
 .pageFooter__item__link {
-  display: inline-block;
-  margin-right: 1em;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 30em) {
+  .pageFooter__item__link {
+    display: inline-block;
+    margin: .75em .5em;
+  }
+
 }
