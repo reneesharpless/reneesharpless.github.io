@@ -42,7 +42,6 @@ a:visited {
 }
 
 a:hover {
-  /*text-shadow: 2px 2px 5px #222;*/
   text-decoration: underline;
 }
 
@@ -150,7 +149,7 @@ a.callToAction-signUp {
 @media screen and (min-width: 60em) {
   a.callToAction-signUp {
     display: inline-block;
-    margin: 0 1em 1em;
+    margin: 0 1em 2em;
     padding: .5em 1em;
   }
 
