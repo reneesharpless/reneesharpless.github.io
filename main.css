@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  width: 100vw;
-  height: 100vh;
-}
-
 html, body,
 h1, h2, h3, h4, h5, h6,
 dl, dt, dd, ol, ul, li,
