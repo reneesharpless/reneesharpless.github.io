@@ -19,7 +19,7 @@ html {
 
 body {
   font: 300 1.6em/1.5 "Signika", sans-serif;
-  background: hsl(48, 89%, 43%);
+  background-image: url(bgwood.jpg);
   color: #4d4d4d;
 }
 
@@ -88,6 +88,7 @@ a:hover {
 .pageWrap {
   max-width: 30em;
   margin: 0 auto;
+  background: hsla(48, 89%, 43%, .8);
 }
 
 @media screen and (min-width: 60em) {
