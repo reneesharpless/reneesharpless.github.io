@@ -24,7 +24,7 @@ html {
 
 body {
   font: 300 1.6em/1.5 "Signika", sans-serif;
-  background-image: url(bgwood.jpg);
+  background-image: url(img/bgwood.jpg);
   color: #4d4d4d;
 }
 
@@ -92,8 +92,9 @@ a:hover {
 
 .pageWrap {
   max-width: 30em;
-  margin: 0 auto;
+  margin: 50px auto;
   background: hsla(48, 89%, 43%, .8);
+  border-radius: 70px;
 }
 
 @media screen and (min-width: 60em) {
@@ -130,10 +131,11 @@ h3.headline {
 }
 
 
+
 /* Banner ---------------------------------------- */
 
 .banner {
-  padding: 1em;
+  padding: 0 1em 1em;
   font-size: 1.5rem;
 }
 
@@ -180,6 +182,15 @@ h3.headline {
   text-shadow: none;
 }
 
+.sanskrit {
+  display: none;
+  height: 55px;
+  background: url(img/sanskrit.svg) no-repeat center;
+  background-size: contain;
+  opacity: .5;
+}
+
+
 @media screen and (min-width: 30em) {
 
   .pageHeader__primary {
@@ -190,12 +201,19 @@ h3.headline {
     font-size: 2.2rem;
   }
 
+
 }
 
 @media screen and (min-width: 60em) {
+
   .pageHeader {
     margin-bottom: 3rem;
   }
+
+  .sanskrit {
+    display: block;
+  }
+
 
 }
 
