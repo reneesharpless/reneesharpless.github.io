@@ -160,8 +160,15 @@ h3.headline {
 
 .pageHeader {
   line-height: 1;
-  margin-top: 3rem;
+  margin-top: 0rem;
   text-transform: uppercase;
+}
+
+.pageHeader__logo {
+  margin: 0 auto;
+  height: 200px;
+  background: url(img/premalogo.svg) no-repeat center;
+  background-size: contain;
 }
 
 .pageHeader__headline {
@@ -204,11 +211,17 @@ h3.headline {
 
 }
 
+
 @media screen and (min-width: 60em) {
 
   .pageHeader {
     margin-bottom: 3rem;
   }
+
+  .pageHeader__logo {
+    height: 250px;
+  }
+
 
   .sanskrit {
     display: block;
@@ -312,7 +325,7 @@ a.callToAction {
   padding: 15px 40px;
 }
 
-.rysicon {
+.pageFooter__icons {
   height: 60px;
   background: url(img/ryslogo.png) no-repeat center;
   background-size: contain;
@@ -327,7 +340,7 @@ a.callToAction {
 }
 
 @media screen and (min-width: 60em) {
-  .rysicon {
+  .pageFooter__icons {
     height: 75px;
   }
 
