@@ -178,8 +178,8 @@ h3.headline {
 }
 
 .pageHeader__secondary {
-  letter-spacing: 1.05em;
-  margin-right: -1.05em;
+  letter-spacing: .625em;
+  margin-right: -.625em;
   color: #4d4d4d;
   font-size: 1.98rem;
   text-shadow: none;
