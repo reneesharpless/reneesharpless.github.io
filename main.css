@@ -155,8 +155,11 @@ h3.headline {
 
 .pageHeader {
   line-height: 1;
-  margin-top: 0rem;
+  margin: 0 auto 2rem;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pageHeader__logo {
@@ -187,6 +190,7 @@ h3.headline {
 
 .sanskrit {
   display: none;
+  width: 164px;
   height: 37px;
   background: url(img/sanskrit.svg) no-repeat center;
   background-size: contain;
