@@ -261,6 +261,11 @@ h3.headline {
   color: hsl(48, 89%, 87%);
 }
 
+.meta + .meta {
+  border-top: 1px solid hsl(48, 89%, 60%);
+  padding-top: 1em;
+}
+
 .meta__item {
   margin-bottom: 0.25em;
 }
