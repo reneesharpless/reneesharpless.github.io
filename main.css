@@ -270,6 +270,12 @@ h3.headline {
   margin-bottom: 0.25em;
 }
 
+.meta__item--headline {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
 
 /* Content ---------------------------------------- */
 
