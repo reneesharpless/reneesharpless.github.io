@@ -318,10 +318,6 @@ a.callToAction {
   padding: 1em 0;
 }
 
-.pageFooter address {
-  font-style: normal;
-}
-
 .pageFooter__item {
   margin-bottom: 1em;
 }
@@ -329,11 +325,6 @@ a.callToAction {
 .pageFooter__item__link {
   display: block;
   margin-bottom: 1.5em;
-}
-
-.address {
-  display: inline-block;
-  padding: 15px 40px;
 }
 
 @media screen and (min-width: 30em) {
