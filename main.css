@@ -40,6 +40,12 @@ a:hover {
   text-shadow: 2px 2px 5px #222;
 }
 
+button,
+input[type="submit"],
+input[type="image"] {
+  cursor: pointer;
+}
+
 
 /* Utility ---------------------------------------- */
 
@@ -80,6 +86,9 @@ a:hover {
     padding: 0.2em 2em;
   }
 
+  .gridCell--half-col {
+    width: 50%;
+  }
 }
 
 
@@ -208,7 +217,6 @@ h3.headline {
     font-size: 2.2rem;
   }
 
-
 }
 
 
@@ -226,7 +234,6 @@ h3.headline {
   .sanskrit {
     display: block;
   }
-
 
 }
 
@@ -307,6 +314,19 @@ a.callToAction {
 .basicList li {
   margin-bottom: 0.5em;
   list-style-type: kannada;
+}
+
+
+/* Events ---------------------------------------- */
+
+.event {
+  display: block;
+  border-top: 1px solid hsl(48, 89%, 60%);
+}
+
+.event > * {
+  max-width: 35em;
+  margin: 0 auto;
 }
 
 
