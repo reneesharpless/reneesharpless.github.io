@@ -46,6 +46,12 @@ input[type="image"] {
   cursor: pointer;
 }
 
+button:focus,
+input[type="submit"]:focus,
+input[type="image"]:focus {
+  outline: none;
+}
+
 
 /* Utility ---------------------------------------- */
 
@@ -286,14 +292,29 @@ h3.headline {
 
 /* Content ---------------------------------------- */
 
-a.callToAction {
+.callToAction {
   display: block;
   margin: 1em 0;
-  color: #4d4d4d;
-  background-color: hsl(48, 89%, 78%);
   padding: 1.5em;
   text-align: center;
+}
+
+.callToAction,
+.callToAction:visited,
+.callToAction:hover,
+.callToAction:active {
+  color: #4d4d4d;
+  background-color: hsl(48, 89%, 78%);
   text-shadow: none;
+}
+
+.callToAction:hover,
+.callToAction:active {
+  background-color: hsl(48, 89%, 68%);
+}
+
+.callToAction--compact {
+  padding: 0.5em;
 }
 
 .content p {
