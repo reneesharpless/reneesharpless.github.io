@@ -40,6 +40,18 @@ a:hover {
   text-shadow: 2px 2px 5px #222;
 }
 
+button,
+input[type="submit"],
+input[type="image"] {
+  cursor: pointer;
+}
+
+button:focus,
+input[type="submit"]:focus,
+input[type="image"]:focus {
+  outline: none;
+}
+
 
 /* Utility ---------------------------------------- */
 
@@ -80,6 +92,9 @@ a:hover {
     padding: 0.2em 2em;
   }
 
+  .gridCell--half-col {
+    width: 50%;
+  }
 }
 
 
@@ -208,7 +223,6 @@ h3.headline {
     font-size: 2.2rem;
   }
 
-
 }
 
 
@@ -226,7 +240,6 @@ h3.headline {
   .sanskrit {
     display: block;
   }
-
 
 }
 
@@ -279,14 +292,29 @@ h3.headline {
 
 /* Content ---------------------------------------- */
 
-a.callToAction {
+.callToAction {
   display: block;
   margin: 1em 0;
-  color: #4d4d4d;
-  background-color: hsl(48, 89%, 78%);
   padding: 1.5em;
   text-align: center;
+}
+
+.callToAction,
+.callToAction:visited,
+.callToAction:hover,
+.callToAction:active {
+  color: #4d4d4d;
+  background-color: hsl(48, 89%, 78%);
   text-shadow: none;
+}
+
+.callToAction:hover,
+.callToAction:active {
+  background-color: hsl(48, 89%, 68%);
+}
+
+.callToAction--compact {
+  padding: 0.5em;
 }
 
 .content p {
@@ -307,6 +335,19 @@ a.callToAction {
 .basicList li {
   margin-bottom: 0.5em;
   list-style-type: kannada;
+}
+
+
+/* Events ---------------------------------------- */
+
+.event {
+  display: block;
+  border-top: 1px solid hsl(48, 89%, 60%);
+}
+
+.event > * {
+  max-width: 35em;
+  margin: 0 auto;
 }
 
 
