@@ -300,6 +300,7 @@ h3.headline {
 }
 
 .callToAction,
+.callToAction:link,
 .callToAction:visited,
 .callToAction:hover,
 .callToAction:active {
