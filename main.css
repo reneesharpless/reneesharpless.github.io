@@ -103,7 +103,7 @@ input[type="image"]:focus {
 .pageWrap {
   max-width: 30em;
   margin: 50px auto;
-  background: hsla(48, 89%, 43%, .8);
+  background: hsla(48, 89%, 43%, .87);
   border-radius: 70px;
 }
 
