@@ -291,6 +291,16 @@ h3.headline {
 
 /* Content ---------------------------------------- */
 
+@media screen and (min-width: 60em) {
+  .buttonGroup {
+    display: flex;
+  }
+
+  .buttonGroup > a:not(:last-child) {
+    margin-right: 1.5em;
+  }
+}
+
 .callToAction {
   display: block;
   margin: 1em 0;
