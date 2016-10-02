@@ -19,8 +19,8 @@ html {
 
 body {
   font: 300 1.6em/1.5 "Signika", sans-serif;
-  background-image: url(img/bgwood.jpg);
   color: #4d4d4d;
+  background: hsla(48, 89%, 43%, .87);
 }
 
 a {
@@ -101,16 +101,13 @@ input[type="image"]:focus {
 
 .pageWrap {
   max-width: 30em;
-  margin: 50px auto;
-  background: hsla(48, 89%, 43%, .87);
-  border-radius: 70px;
+  margin: 20px auto;
 }
 
 @media screen and (min-width: 60em) {
   .pageWrap {
     max-width: 60em;
   }
-
 }
 
 
