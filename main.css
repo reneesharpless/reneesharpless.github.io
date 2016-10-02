@@ -343,6 +343,10 @@ h3.headline {
 
 /* Events ---------------------------------------- */
 
+.events {
+  margin-bottom: 1em;
+}
+
 .event {
   display: block;
   border-top: 1px solid hsl(48, 89%, 60%);
@@ -351,6 +355,12 @@ h3.headline {
 .event > * {
   max-width: 35em;
   margin: 0 auto;
+}
+
+.event__form:not(:last-child) {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid hsl(48, 89%, 60%);
 }
 
 
