@@ -70,6 +70,10 @@ input[type="image"]:focus {
   text-transform: uppercase;
 }
 
+.attention {
+  color: red;
+}
+
 
 /* Grid system ---------------------------------------- */
 
