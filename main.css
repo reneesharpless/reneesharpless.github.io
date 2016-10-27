@@ -135,6 +135,11 @@ h3.headline {
   display: block;
 }
 
+.cancel {
+  font-weight: inherit;
+  margin: 1em 0 0.5em;
+  color:#c12d2d;
+}
 
 
 /* Banner ---------------------------------------- */
