@@ -85,6 +85,7 @@ input[type="image"]:focus {
   .gridCell--row {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 
   .gridCell--padded {
