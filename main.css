@@ -309,8 +309,8 @@ h3.headline {
 
 .callToAction {
   display: block;
-  margin: 1em 0;
-  padding: 1.5em;
+  margin: 0.5em 0;
+  padding: 1em 1.2em;
   text-align: center;
 }
 
